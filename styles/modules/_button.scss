@@ -1,0 +1,48 @@
+%button {
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+
+    //padding: 4px 8px;
+    padding: 8px 12px;
+    border-radius: 3px;
+
+    background-color: $color-button;
+    outline: 0;
+
+    /*border: darken($color-button, 10%) solid;
+    border-width: 0 0 1px 0;*/
+
+    color: #ffffff;
+    font-size: 100%;
+    font-family: $ff-copy;
+    font-weight: 400;
+
+    margin-top: 0;
+    overflow: auto;
+
+    //@include transition(box-shadow .2s linear, background-color .2s linear);
+    &:hover {
+        text-decoration: none;
+        color: white;
+        //border: darken($color-button, 10%) solid;
+        //border-width: 0 0 1px 0;
+        background-color: lighten($color-button, 10%);
+    }
+
+    &.is-disabled {
+        background-color: #ddd;
+        border-color: #bbb;
+    }
+
+}
+
+.button, .button--full {
+    @extend %button;
+}
+
+.button--full {
+    text-align: center;
+    width: 100%;
+    display: block;
+}

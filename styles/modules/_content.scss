@@ -1,0 +1,31 @@
+%content {
+  @extend %box;
+}
+
+.content {
+  @extend %content;
+  padding: 4em 0;
+
+  h1, h2, h3, h4, h5, h6, hr {
+    @include span(12);
+    text-align: center;
+    margin-bottom: .5em;
+  }
+
+  p, ul, ol {
+    @include span(8, 2);
+    margin-bottom: 2em;
+  }
+
+  hr {
+    border: 0;
+    background: #ddd;
+    margin: 2em 0;
+    height: 1px;
+  }
+
+  h1 {
+    margin-bottom: 2em;
+    text-decoration: underline;
+  }
+}

@@ -1,0 +1,108 @@
+$ff-copy: "ff-tisa-web-pro", sans-serif;
+$ff-heading: "source-code-pro", monospace;
+
+%paragraph {
+    font-size: 1em;
+    line-height: 1.72em;
+
+    font-variant-numeric: oldstyle-nums proportional-nums;
+    @include font-feature-settings("onum" 1, "pnum" 1);
+}
+
+//@include type-boilerplate;
+
+html {
+    font-size: 21px;
+}
+
+body {
+    font-size: 100%;
+    color: $color-text;
+    font-family: $ff-copy;
+}
+
+/* HEADINGS */
+
+$headings:
+    h1 2em 1.1em,
+    h2 1.6em 1.4em,
+    h3 1.4em 1.61em,
+    h4 1em 1.61em;
+@each $heading in $headings {
+     #{nth($heading, 1)} {
+        font-size: nth($heading, 2);
+        line-height: nth($heading, 3);
+        font-family: $ff-heading;
+    }
+}
+
+h2, h4 {
+    font-weight: 700;
+}
+
+h1, h3 {
+    font-weight: 400;
+}
+
+h4 {
+    font-style: italic;
+}
+
+h1 {
+    margin-bottom: .5em;
+}
+
+/* TABLES */
+
+table {
+    @include font-feature-settings("lnum" 1, "tnum" 1);
+}
+
+strong {
+    font-weight: 700;
+}
+
+em {
+    font-style: italic;
+}
+
+
+/* QUOTES */
+
+blockquote {
+    @include type-quotemarks-none;
+
+
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+
+    p {
+        margin-bottom: 0;
+    }
+}
+
+/* CODE */
+
+code {
+    @extend %type-code;
+
+    font-family: $ff-copy;
+
+    display: inline-block;
+}
+
+pre {
+    @extend %type-code;
+
+    font-family: $ff-copy;
+
+    display: block;
+
+    padding: 2em;
+    margin-bottom: 2em;
+
+    code {
+        display: block;
+    }
+}

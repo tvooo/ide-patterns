@@ -1,0 +1,13 @@
+h1, h2, h3, h4, div, p, ul, ol, li, blockquote, section, header, footer, article, body, html {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}

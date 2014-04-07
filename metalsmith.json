@@ -1,15 +1,31 @@
 {
+  "source": "./src",
   "metadata": {
     "title": "IDE Patterns",
     "description": "A gallery for design patterns used in IDEs and code editors"
   },
   "plugins": {
+    "metalsmith-collections": {
+      "ides": {
+        "pattern": "ide/*.md",
+        "sortBy": "title"
+      },
+      "articles": {
+        "pattern": "blog/*.md",
+        "sortBy": "title"
+      }
+    },
     "metalsmith-markdown": {},
     "metalsmith-permalinks": {
-      "pattern": ":title"
+      "pattern": ":path/:title"
     },
+
     "metalsmith-templates": {
-      "engine": "handlebars"
+      "engine": "handlebars",
+      "partials": {
+        "header": "_header.html"
+
+    }
     }
   }
 }
