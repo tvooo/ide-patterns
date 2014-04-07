@@ -1,0 +1,15 @@
+{
+  "metadata": {
+    "title": "IDE Patterns",
+    "description": "A gallery for design patterns used in IDEs and code editors"
+  },
+  "plugins": {
+    "metalsmith-markdown": {},
+    "metalsmith-permalinks": {
+      "pattern": ":title"
+    },
+    "metalsmith-templates": {
+      "engine": "handlebars"
+    }
+  }
+}
