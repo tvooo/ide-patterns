@@ -12,24 +12,18 @@
     <nav>
       <ul>
         <li><a href="/blog">Blog</a></li>
-        <li><a href="/ide">IDEs</a></li>
+        <li class="is-active"><a href="/ide">IDEs</a></li>
         <li><a href="/pattern">Patterns</a></li>
         <li><a href="/about">About</a></li>
       </ul>
     </nav>
   </header>
 
-
-
-  <section class="content">
-    {{{ contents }}}
-  </section>
-
-  <p>{{ description }}</p>
+  <ul class="content">
   {{#each ides}}
-  <p>
-    {{ title }}
-  </p>
+    <li><a href="/{{path}}">{{ title }}</a></li>
   {{/each}}
+  </ul>
+
 </body>
 </html>

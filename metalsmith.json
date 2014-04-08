@@ -13,6 +13,10 @@
       "articles": {
         "pattern": "blog/*.md",
         "sortBy": "title"
+      },
+      "patterns": {
+        "pattern": "pattern/*.md",
+        "sortBy": "title"
       }
     },
     "metalsmith-markdown": {},

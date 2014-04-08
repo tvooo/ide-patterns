@@ -1,3 +1,4 @@
 ---
-template: index.html
+template: about.html
+title: About
 ---
