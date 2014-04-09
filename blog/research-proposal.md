@@ -1,8 +1,4 @@
----
-template: article.html
-title: Research Proposal
-date: 2014-04-07
----
+# Research Proposal
 
 ## Knowledge Area and Research Question
 
@@ -76,7 +72,7 @@ implemented, high-level, usable prototypes.
 
 ***
 
-### References
+#### References
 - **Oney & Brandt 2012** S. Oney and J. Brandt *Codelets: Linking Interactive Documentation and Example Code in the Editor,* in Proceedings of the SIGCHI Conference on Human Factors in Computing Systems, New York, NY, USA, 2012, pp. 2697–2706.
 - **Deline et al. 2006** R. DeLine, M. Czerwinski, B. Meyers, G. Venolia, S. Drucker, and G. Robertson, *Code Thumbnails: Using Spatial Memory to Navigate Source Code,* in Proceedings of the Visual Languages and Human-Centric Computing, Washington, DC, USA, 2006, pp. 11–18.
 - **Granger 2012** C. Granger *Light Table -- a new IDE concept*, [Link](http://www.chris-granger.com/2012/04/12/light-table---a-new-ide-concept/)

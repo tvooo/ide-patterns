@@ -1,7 +1,4 @@
----
-template: pattern.html
-title: Fuzzy Search & Fuzzy Matching
----
+# Fuzzy Search & Fuzzy Matching
 
 According to [Wikipedia](http://en.wikipedia.org/wiki/Fuzzy_search):
 
