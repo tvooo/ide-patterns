@@ -10,4 +10,4 @@ Fuzzy search can be applied to basically every search within an IDE, and is usua
 
 Sublime Text implements fuzzy search for its Command Palette, its Symbol Search as well as for its File Search.
 
-The **Emmet** plugin for Sublime Text allows you to construct CSS rules "fuzzily". For example, ```tac''' gets expanded to ```text-align: center'''.
+The **Emmet** plugin for Sublime Text allows you to construct CSS rules "fuzzily". For example, `tac` gets expanded to `text-align: center`.
