@@ -44,6 +44,7 @@ We know design patterns in a lot of disciplines. Originating in Christoper Alexa
 
 - Auto completion
 - Code folding
+- [Inline Documentation](/patterns/inline-documentation.md)
 
 ## 3. IDEs & Code Editors
 
