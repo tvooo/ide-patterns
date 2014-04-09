@@ -1,0 +1,20 @@
+%list--article {
+  @extend %box;
+  padding: 4em 0;
+  li a {
+    time {
+      @include span(8, 2);
+      text-align: right;
+    }
+    h4 {
+      @include span(8, 2);
+    }
+    section.excerpt {
+      @include span(8, 2);
+    }
+  }
+}
+
+.list--article {
+  @extend %list--article;
+}

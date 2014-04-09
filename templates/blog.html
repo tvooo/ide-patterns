@@ -19,9 +19,15 @@
     </nav>
   </header>
 
-  <ul class="content">
+  <ul class="list--article">
   {{#each articles}}
-    <li><a href="/{{path}}">{{ title }}</a></li>
+    <li><a href="/{{path}}">
+      <h4>{{ title }}</h4>
+      <time datetime="{{ date }}">Date</time>
+      <section class="excerpt">
+        {{{ excerpt }}}
+      </section>
+    </a></li>
   {{/each}}
   </ul>
 

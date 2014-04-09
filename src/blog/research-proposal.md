@@ -2,6 +2,12 @@
 template: article.html
 title: Research Proposal
 date: 2014-04-07
+excerpt: >
+  Since the first programmable computers and instructions on punch cards,
+  computing has come a long way. Incredible progress has been made in terms of
+  computing power, technologies and usage areas. We have seen new programming
+  languages and paradigms, we have seen abstractions and whole toolchains to
+  simplify the process of developing software.
 ---
 
 ## Knowledge Area and Research Question

@@ -30,6 +30,7 @@ $gutter: 1%;
 @import "modules/header";
 @import "modules/content";
 @import "modules/button";
+@import "modules/list--article";
 
 body {
     background: #fff;
@@ -39,4 +40,9 @@ body {
 
 .is-not-scrollable {
     overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: $color-text;
 }
