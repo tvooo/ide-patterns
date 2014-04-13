@@ -3,7 +3,9 @@ IDE Patterns
 
 A gallery of interaction design patterns used in IDEs and code editors.
 
-I'm conducting a survey around the usage of IDEs. If you are a developer, please take a moment and [take the survey]().
+I'm conducting a survey around the usage of IDEs. If you are a developer, please take a moment and help me with my Master's thesis.
+
+[Take the survey](https://tvo.typeform.com/to/kSg5pe).
 
 ## Table of Contents
 
