@@ -27,7 +27,7 @@ We know design patterns in a lot of disciplines. Originating in Christoper Alexa
 ### 2.1 Navigation & Discovery
 
 - [Fuzzy Search & Fuzzy Matching](/patterns/fuzzy-search.md)
-- Symbol Browser (Class Browser)
+- [Symbol Browser (Class Browser)](/patterns/symbol-browser.md)
 - File/Folder Tree View
 - Code Search
 - Projects
@@ -41,11 +41,12 @@ We know design patterns in a lot of disciplines. Originating in Christoper Alexa
 ### 2.3 Runtime, Debugging & Live
 
 - Debugger
+- Profiler
 
 ### 2.4 Inline Editing
 
 - Auto completion
-- Code folding
+- [Code folding](/patterns/code-folding.md)
 - [Inline Documentation](/patterns/inline-documentation.md)
 
 ## 3. IDEs & Code Editors
